@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+
+}
+.name {
+    margin: 0;
+}
+.number {
+    margin: 0;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+}

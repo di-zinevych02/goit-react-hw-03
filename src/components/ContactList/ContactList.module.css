@@ -1,0 +1,14 @@
+.contactslist {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    padding: 0px;
+    margin: 0px;
+
+}
+.item {
+    list-style: none;
+    max-width: 800px;
+
+}
