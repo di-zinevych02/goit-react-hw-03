@@ -9,3 +9,4 @@ const SearchBox = ({value, onSearch}) => {
   );
 };
 export default SearchBox;
+////Обробник onChange реалізований для оновлення батьківського компоненту новим значенням пошуку.

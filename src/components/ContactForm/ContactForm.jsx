@@ -15,6 +15,7 @@ const initialValues = {
 const ContactForm = ({onAdd}) => {
     
     const fieldId = useId();
+    //Функція handleSubmit реалізована для обробки подання форми, включаючи додавання нового контакту та скидання форми.
     const handleSubmit= (values, actions) => {
         actions.resetForm();
         onAdd({
